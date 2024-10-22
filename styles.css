@@ -1,0 +1,27 @@
+p {
+    color: blue;
+    font-size: 15px;
+    text-decoration: overline;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    font-weight: 1000;
+    /*font-weight: bold;*/
+}
+
+a[href^="http"] {
+    color: blueviolet;
+    /* check if href starts with http */
+}
+a[href$="mydelfaworks"] {
+    color: blue;
+    /* check if href ends with mydelfaworks */
+}
+a[href*="google.com"] {
+    color: brown;
+    /* check if href includes google */
+}
+
+ol,ul {
+    color: coral;
+    /* multitag, 'color: coral' applies to all lists */
+}
